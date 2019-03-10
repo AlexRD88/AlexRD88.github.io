@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Rubik|VT323" rel="stylesheet">
     <title>Alexander Dawson Portfolio</title>
 </head>
 
 <body>
-    <header class="container">
+    <header role="banner" class="container">
         <img id="profilePic" src="/pictures/picture profile.png" alt="picture of Alex in a long hallway">
         <h1><strong>Alexander Ray Dawson</strong></h1>
         <h2><i>software developer</i></h2>
 
         <h3>Hi, my name is Alex. I am a full-stack developer & technology enthusiast.</h3>
     </header>    
-        <nav>
+        <nav role="navigation">
             <ul>
                 <li><a href="#bio">Bio</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -26,22 +26,22 @@
             </ul>
         </nav>
    
-    <main>
-        <section id="bio">
+    <main role="main">
+        <section id="bio" tabindex="0">
             <h4><strong>Bio</strong></h4>
             <HR>
-            <p> Out of all the passions in my life, one of my favorites is technology.
+            <article role="article"> Out of all the passions in my life, one of my favorites is technology.
                 I consider myself a constant learner and enjoy finding
                 creative and efficient solutions for any problems that come my way. Aside from technology
                 I love all kinds of extreme sports and staying active and consider myself a underground music guru.
-                Feel free to check out my current and past projects.</p>
+                Feel free to check out my current and past projects.</article>
         </section>
 
-        <section id="projects">
+        <section id="projects" tabindex="0">
             <h4><strong>Projects</strong></h4>
             <HR>
             <h5><strong>1. Paintball Quiz App </strong></h5><br>
-            <p>
+            <article role="article">
                 <br>
                 - My goal with this quiz app was to make a informative but also fun application to get users to learn a little
                 more about paintball.
@@ -52,7 +52,7 @@
                 <br>
                 - Check out the updates on the project <a href="https://github.com/AlexRD88/PaintballQuizApp" target="_blank">here</a>.
                 
-            </p>
+            </article>
             <img class="projectPics" src="/pictures/frontpagequiz.png" alt="demo picture of front page of quiz application">
             <img class="projectPics" src="/pictures/firstquizpage.png" alt="demo picture of first page of questions of quiz application">
             <img class="projectPics" src="/pictures/resultspage.png" alt="demo picture of results page of quiz application">
@@ -61,28 +61,29 @@
             <h5><strong>2. More projects soon to come! </strong></h5><br>
         </section>
 
-        <section id="contact">
+        <section id="contact" tabindex="0">
             <h4><strong>Contact</strong></h4>
 
-            <form action="mailto:alexdee17@gmail.com" method="post" enctype="text/plain">
+            <form role="form" action="mailto:alexdee17@gmail.com" method="post" enctype="text/plain">
                 Name<br>
-                <input type="text" name="name"><br>
+                <input type="text" name="name" placeholder="Your name here"><br>
                 E-mail<br>
-                <input type="text" name="mail"><br>
+                <input type="text" name="mail" placeholder="Your email here"><br>
                 Message<br>
-                <input type="text" name="comment" size="50"><br><br>
+                <input type="text" name="comment" size="50" placeholder="Send me a message!"><br><br>
                 <input class="submitButtons" type="submit" value="Send">
                 <input class="submitButtons" type="reset" value="Reset">
             </form>
         </section>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
         <div class="containerBottom">
             <a href="https://www.linkedin.com/in/alexander-dawson-90aa4b176/" target="_blank"><img class="logo" src="/pictures/linkedin.png"></a>
             <a href="https://github.com/AlexRD88" target="_blank"><img class="logo" src="/pictures/githublogo.png"></a>
             <a href="https://plus.google.com/+AlexDawson88" target="_blank"><img class="logo" src="/pictures/googlelogo.png"></a>
             <a href="https://twitter.com/RaydahBASS" target="_blank"><img class="logo" src="/pictures/twitterlogo.png"></a>
+            <a href="https://soundcloud.com/djraydah" target="_blank"><img class="logo" src="pictures/soundcloudlogo.png"></a>
         </div>
     </footer>
 </body>
